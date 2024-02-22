@@ -19,16 +19,30 @@ main {
 
 a {
     text-decoration: none;
-    font-size: 1.125rem;
-    font-weight: 600;
-    di
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 1000px;
+    outline: 4px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px white solid;
+    background-color: #2F9915;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+a:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px 2px rba(0,0,0,0.2);
 }
 
 .logo {
     display: block;
     position: relative;
-    height: 50%;
-    width: 50%;
+    height: 33%;
+    width: 33%;
     margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
@@ -53,13 +67,11 @@ a {
     margin-bottom: 1.5rem;
     color: black;
 }
-splay
 
 @media (max-width: 600px){
     body {
         background-size: 100%;
     }
-
     .logo img {
         width: 200px;
     }
